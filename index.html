@@ -38,7 +38,7 @@
             <ul class="hero-list list">
             <li class="hero-list-item"> <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             </li> 
-            <li class="hero-list-item"> <button type="button" class="button">Заказать услугу</button>
+            <li class="hero-list-item"> <button type="button" class="button" data-modal-open>Заказать услугу</button>
             </li>
             </ul>
             </div>
@@ -253,6 +253,12 @@
         </div>
         </div>
     </footer>
+<div class="backdrop is-hidden" data-modal>
+<div class="modal">
+<button class="modal-button" data-modal-close></button>
+</div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
